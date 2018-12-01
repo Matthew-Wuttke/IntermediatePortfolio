@@ -53,7 +53,7 @@ namespace IntermPortfolio
         void DisplayMenu()
         {
             System.Console.WriteLine("1: Jumble Game");
-            System.Console.WriteLine("2: Farmer Game");
+            System.Console.WriteLine("2: Homer Game");
             System.Console.WriteLine("3: TicTacToe Game");
             System.Console.WriteLine("4: Trivia Game");
             System.Console.WriteLine("5: Exit\n");

@@ -65,7 +65,7 @@ namespace IntermPortfolio
                     incorrect += 1;
                     System.Console.WriteLine("\nIncorrect:   " + Questions.GetExplanation(curQuestion));
                 }
-                                                
+                System.Console.WriteLine("\nPress Enter to continue");
                 curQuestion++;
                 System.Console.ReadLine();
                 System.Console.Clear();

@@ -56,7 +56,7 @@ namespace IntermPortfolio
             if (thelogic.HomerAlone() == true)//if game ended on Dog attacked Maggie
             {
                 DisplayGameState(); //display why the game ended
-                System.Console.WriteLine("\nGAMEOVER!!\n\nYou lose -  Homer is the only survivor\n");
+                System.Console.WriteLine("\nGAMEOVER!!\n\nYou lose -  Homer left everyone behind\n");
             }
             if (thelogic.DetermineWin() == true)//if game ended on Player won
             {

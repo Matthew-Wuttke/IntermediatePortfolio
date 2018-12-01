@@ -138,12 +138,11 @@ namespace IntermPortfolio
 
             if (location == Direction.South) //Homer at south bank
             {
-
-                if (northBank.Contains("Maggie") == true && northBank.Contains("Dog") == true && northBank.Contains("Poison") == true) // are Maggie, and Dog on the same bank without the poison or Homer present
+                if (northBank.Contains("Maggie") == true && northBank.Contains("Poison") == true && northBank.Contains("Dog") == true)// are Maggie, the poison, and the dog on the north bank without Homer present
                 {
-                    lonelyHomer = true;      //if so Homer is the only survivor of the 4 images
+                    lonelyHomer = true;         //if so everyone was left behind
                 }
-            }            
+            }
             return lonelyHomer;
         }
         public bool GameOver()
